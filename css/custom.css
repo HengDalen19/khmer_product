@@ -1,0 +1,39 @@
+@font-face {
+    font-family: battambang;
+    src: url(../fonts/fonts/Battambang/Battambang-Regular.ttf);
+  }
+  @font-face {
+    font-family: koulen;
+    src: url(../fonts/fonts/Koulen/Koulen-Regular.ttf);
+  }
+  @font-face {
+    font-family: RobotoRegular;
+    src: url(../fonts/fonts/Roboto/static/Roboto-Regular.ttf);
+  }
+  @font-face {
+    font-family: RobotoSemiBold;
+    src: url(../fonts/fonts/Roboto/static/Roboto-SemiBold.ttf);
+  }
+  body{
+      font-family: 'battambang', 'RobotoRegular';
+  }
+  h1,h2,h3,h4,h5,h6{
+      color: green;
+      font-family: 'koulen','RobotoSemiBold';
+  }
+  .navbar-nav li a {
+      color: green;
+      font-family: 'koulen','RobotoSemiBold';
+  }
+  .image_card{
+    aspect-ratio: 3 / 3;
+    object-fit: cover;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+}
+.footer_copy_right{
+    text-align: center;
+    background: #587e08;
+    color: #fff;
+    font-size: 1.2rem;
+}
